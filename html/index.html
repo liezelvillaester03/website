@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="styesheet" href="index.css">
+  <title>CatPhotoApp</title>
+</head>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <section>
+        <h2>Cat Photos</h2>
+        <!-- TODO: Add link to cat photos -->
+        <p>See more <a target="_blank" href="https://www.pexels.com/photo/white-and-grey-kitten-on-brown-and-black-leopard-print-textile-45201/">cat photos</a> in our gallery.</p>
+        <a href="https://www.pexels.com/photo/white-and-grey-kitten-on-brown-and-black-leopard-print-textile-45201/"><img src="c:\Users\Animation 24\Downloads\Cute-Cat-Transparent-Image.png" alt="A cute orange cat lying on its back." width="300px"></a>
+      </section>
+      <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>box</li>
+          <li>sleeping</li>
+          <li>fish</li>
+        </ul>
+        <figure>
+          <img src="c:\Users\Animation 24\Downloads\fish-plate.png" alt="A slice of fish on a plate." width="300px">
+          <figcaption>Cats <em>love</em> fish.</figcaption>  
+        </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <figure>
+          <img src="c:\Users\Animation 24\Downloads\other cats.png" alt="Five cats looking around a field." width="400px">
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="hungry" type="checkbox" name="personality" value="hungry" checked> <label for="hungry">Hungry</label>
+            <input id="bossy" type="checkbox" name="personality" value="bossy"> <label for="bossy">Bossy</label>
+            <input id="sleepy" type="checkbox" name="personality" value="sleepy"> <label for="sleepy">Sleepy</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+  </body>
+</html>

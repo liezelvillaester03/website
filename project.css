@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+header {
+    background-color: #c19a6b;
+    color: #000;
+    padding: 20px;
+    text-align: center;
+}
+main {
+    padding: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #c19a6b;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    bottom: 30%;
+}
+.section {
+    background-color: #e7dfdf;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.section .li {
+    left: 50%;
+}
+.h3 {
+    text-align: center;
+    
+}
+.section .project1,
+.section .project2,
+.section .project3,
+.section .project4,
+.section .project5,
+.section .project6,
+.section .project7,
+.section .project8,
+.section .project9,
+.section .project10,
+.section .project11,
+.section .project12,
+.section .project13,
+.section .project14,
+.section .project15,
+.section .project16 {
+    background-color: #c19a6b;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 565px;
+    height: 300px; 
+    display: inline-block;
+    text-align: center;
+}
+.button1 {
+    display: inline-block;
+    padding: 9px 60px;
+    background-color: #b4874f;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.button1:hover {
+    background-color: #c19a6b;
+}
+.section .font {
+    font-weight: bold;
+   
+}
+.section p {
+    color: #000;
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+    width: auto;
+}
+ .project2 img
+{
+    width: 80%;
+    height: 68%;
+    align-items: center;
+}
+.project-box {
+    width: auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.project-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.project-box .button1 {
+    margin-top: 10px;
+}
